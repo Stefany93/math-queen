@@ -10,14 +10,6 @@ import static java.lang.System.out;
  *
  */
 public class Problem {
-
-	
-	public enum Type{
-		ADDTION,
-		SUBSTRACTION,
-		MULTIPLICATION,
-		DIVISION,
-	}
 	int term1;
 	int term2;
 	int numProblems;

@@ -5,7 +5,7 @@
 package mathqueen;
 import static java.lang.System.out;
 
-import mathqueen.Problem.Type;
+import mathqueen.Problem;
 /**
  * @author Administrator
  *
@@ -22,7 +22,7 @@ public class Generate {
 		while(x < problem.getNumProblems())
 		{
 			out.println(problem.getTerm1());
-			out.println("+");
+			out.println(Type.SUBSTRACTION.getValue());
 			out.println(problem.getTerm2());
 			out.println("___");
 			out.println();
